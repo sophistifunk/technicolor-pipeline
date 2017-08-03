@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage("Colourful logging') {
+        stage('Colourful logging') {
               steps {
                 sh 'echo am here'
                 sh 'pwd'

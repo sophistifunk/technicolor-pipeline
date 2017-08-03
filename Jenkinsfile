@@ -1,5 +1,5 @@
 node {
     stage('Colourful Logging') {
-        sh 'bash ansi.sh'
+        sh 'bash ./ansi.sh'
     }
 }

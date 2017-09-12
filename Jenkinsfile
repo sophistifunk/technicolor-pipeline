@@ -2,12 +2,14 @@ pipeline {
     agent any
     stages {
         stage('Colourful logging') {
-              steps {
+            steps {
                 sh 'echo am here'
                 sh 'pwd'
                 sh 'ls -al'
-                sh 'bash ./ansi.sh'                  
-              }
+                ansiColor('xterm') {
+                    sh 'bash ./ansi.sh'
+                }                
+            }
         }               
     }    
 }

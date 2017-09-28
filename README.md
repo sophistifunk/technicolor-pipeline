@@ -1,2 +1,3 @@
 # technicolor-pipeline
-Useless repo to test some Jenkins stuff
+Useful repo to test some Jenkins stuff
+Some stuff.
